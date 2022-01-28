@@ -134,9 +134,8 @@ Floor detection and then showing on viewfinder whether clean or unclean.
 
 Floor Detection Module
 
-```bash
-This Module is divided into two parts:-
-```
+#### This Module is divided into two parts:-
+
 
 #### 1] Floor detection
 

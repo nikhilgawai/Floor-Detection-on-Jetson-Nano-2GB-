@@ -1,9 +1,8 @@
-# 
-# Floor Detection on Yolov5 using Jetson Nano 2gb Developer Kit.
+# Floor Detection on Jetson Nano 2GB Developer Kit using Yolov5.
 
-Floor detection system which will detect the quality of Floor, identify whether
-its clean or unclean and then recommend the steps to take after identifying the property of the
-Floor.
+#### Floor detection system which will detect the quality of Floor, identify whether
+#### its clean or unclean and then recommend the steps to take after identifying the property of the Floor.
+
 ## Aim and Objectives
 
 ### Aim
@@ -87,6 +86,7 @@ good results.
 
 • Machine learning algorithms have proven to be very useful in pattern recognition and
 classification, and hence can be used for Floor detection as well.
+
 ## Jetson Nano Compatibility
 
 • The power of modern AI is now available for makers, learners, and embedded developers
@@ -105,6 +105,7 @@ AI applications. All Jetson modules and developer kits are supported by JetPack 
 
 • In our model we have used JetPack version 4.6 which is the latest production release and
 supports all Jetson modules.
+
 ## Jetson Nano 2GB
 
 ![IMG_20220125_115056](https://user-images.githubusercontent.com/89011801/151312523-33b6cd88-9b92-453c-bb8e-b6e5a1fb782b.jpg)
@@ -126,15 +127,18 @@ the cleanliness of Floor.
 
 The floor detection system is a program that focuses on implementing real time floor
 detection.
+
 It is a prototype of a new product that comprises of the main module:
+
 Floor detection and then showing on viewfinder whether clean or unclean.
+
 Floor Detection Module
 
 ```bash
-This Module is divided into two parts:
+This Module is divided into two parts:-
 ```
 
-    1] Floor detection
+#### 1] Floor detection
 
 • Ability to detect the location of floor in any input image or frame. The output is
 the bounding box coordinates on the detected floor.
@@ -146,7 +150,7 @@ gettyimages.ae and google images and made our own dataset.
 • This Datasets identifies floor in a Bitmap graphic object and returns the bounding
 box image with annotation of floor present in a given image.
 
-    2] Cleanliness Detection
+#### 2] Cleanliness Detection
 
 • Classification of the floor based on whether it is clean or unclean.
 
@@ -161,6 +165,7 @@ is straightforward.
 • YOLOv5 was used to train and test our model for various classes like clean,
 unclean. We trained it for 149 epochs and achieved an accuracy of
 approximately 93%.
+
 ## Installation
 
 ### Initial Setup
@@ -326,15 +331,15 @@ because of lack of time or other reasons are unable to keep their floor clean.
 industry and save them a lot of time and money.
 ## Refrences
 
-1]Roboflow :- https://roboflow.com/
+#### 1]Roboflow :- https://roboflow.com/
 
-2] Datasets or images used: https://www.gettyimages.ae/search/2/image?family=creative&phrase=floor
+#### 2] Datasets or images used: https://www.gettyimages.ae/search/2/image?family=creative&phrase=floor
 
-3] Google images
+#### 3] Google images
 ## Articles
 
-Articles :-
+## Articles :-
 
-[1] https://www.therichest.com/lifestyles/10-reasons-to-focus-on-the-importance-of-proper-floor-maintenance/
+#### [1] https://www.therichest.com/lifestyles/10-reasons-to-focus-on-the-importance-of-proper-floor-maintenance/
 
-[2]https://shinycarpetcleaning.com/benefits-of-having-floor-cleaning-maintenance/
+#### [2]https://shinycarpetcleaning.com/benefits-of-having-floor-cleaning-maintenance/

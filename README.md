@@ -108,7 +108,13 @@ supports all Jetson modules.
 
 ## Jetson Nano 2GB
 
-![IMG_20220125_115056](https://user-images.githubusercontent.com/89011801/151312523-33b6cd88-9b92-453c-bb8e-b6e5a1fb782b.jpg)
+
+
+https://user-images.githubusercontent.com/89011801/151481627-3078ba05-9ee5-4adc-bf05-f27f53bfe818.mp4
+
+
+
+
 
 ## Proposed System
 
@@ -265,9 +271,7 @@ sudo python3 detect.py --weights yolov5s.pt --source 0
 ### We used Google Colab And Roboflow
 
 train your model on colab and download the weights and past them into yolov5 folder
-link of project
-
-Insert gif or link to demo
+link of project.
 
 
 ## Running Floor Detection Model
